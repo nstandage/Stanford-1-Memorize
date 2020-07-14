@@ -38,7 +38,7 @@ enum Theme: String, CaseIterable {
         }
     }
     
-    var cardColor: Color {
+    var themeColor: Color {
         switch self {
         case .Fruit:
             return Color.init(.green)
@@ -75,18 +75,6 @@ enum Theme: String, CaseIterable {
         
         
     }
-    
-    
-    
-//    struct Themes {
-//        numberOfPairsOfCards: Int
-//        emojis: [String]
-//        color: Color
-//    }
-    
-    
-    
-    
     
     
     

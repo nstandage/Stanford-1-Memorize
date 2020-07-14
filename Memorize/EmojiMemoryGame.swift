@@ -32,8 +32,8 @@ class EmojiMemoryGame: ObservableObject {
         model.cards
     }
     
-    var cardColor: Color {
-        model.theme.cardColor
+    var themeColor: Color {
+        model.theme.themeColor
     }
     
     var themeName: String {
